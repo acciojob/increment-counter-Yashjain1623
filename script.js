@@ -6,7 +6,7 @@ let counterValue = 0;
 // Function to handle button click
 function handleIncrement() {
     // Show alert with current counter value
-    alert(`Current counter value: ${counterValue}`);
+    alert(counterValue);
     
     // Increment counter value
     counterValue += 1;
